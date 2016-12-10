@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/jcave/EclipseAndroid/.metadata'
+let g:netrw_dirhist_2='/home/jcave/Code/3GNE_trunk/Framework/CrossPlatform/include/Core/Patterns'
+let g:netrw_dirhist_3='/home/jcave/Code/OCTSDR-01.00.04-B13-ALPHA/software/octl1api_driver/oct_simcode'
+let g:netrw_dirhist_4='/usr/lib/python2.7/dist-packages/usbcreator/frontends'
+let g:netrw_dirhist_5='/home/jcave/Code/pc104-conf_trunk/base_files/etc/grub.d'
+let g:netrw_dirhist_6='/home/joc/Code/serial-test/snap'
+let g:netrw_dirhist_7='/home/joc/Code/factory-diag/.git'
+let g:netrw_dirhist_8='/home/joc/Code/serial-test/snap'

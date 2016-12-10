@@ -1,0 +1,32 @@
+[global_config]
+  title_transmit_bg_color = "#614f77"
+[keybindings]
+  go_down = <Shift>Down
+  go_left = <Shift>Left
+  go_right = <Shift>Right
+  go_up = <Shift>Up
+  new_tab = F2
+  next_tab = F4
+  prev_tab = F3
+  resize_down = <Shift><Alt>Down
+  resize_left = <Shift><Alt>Left
+  resize_right = <Shift><Alt>Right
+  resize_up = <Shift><Alt>Up
+  split_horiz = <Shift>F2
+  split_vert = <Primary>F2
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.86
+    background_image = None
+    font = Ubuntu Mono 11
+    foreground_color = "#ffffff"
+    scrollback_infinite = True
