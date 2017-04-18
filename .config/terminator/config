@@ -26,7 +26,8 @@
 [profiles]
   [[default]]
     background_darkness = 0.86
-    background_image = None
+    cursor_color = "#ffffff"
     font = Ubuntu Mono 11
     foreground_color = "#ffffff"
     scrollback_infinite = True
+    use_system_font = False
