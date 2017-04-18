@@ -13,15 +13,13 @@ export PATH=~/.local/bin:~/Code/snapcraft/bin:$PATH
 
 export EDITOR="vim"
 
-export GPGKEY=2449C0D3
-
 # export GOROOT=/media/data/code/go
 export GOPATH=~/Code/go
 export PATH=$PATH:$GOPATH/bin
 
 export DEBFULLNAME="Jonathan Cave"
 export DEBEMAIL="jonathan.cave@canonical.com"
-export GPGKEY="087BFE01"
+export GPGKEY="1DC5C5AD"
 
 export COMMAND_NOT_FOUND_INSTALL_PROMPT=1
 
@@ -35,6 +33,8 @@ alias install-click-tmp='adb shell "find /tmp -name *.click -exec sudo -iu phabl
 alias adb-screenshot="adb shell screencap -p | perl -pe 's/\x0D\x0A/\x0A/g' > screen.png"
 
 alias spotify_hidpi='spotify --force-device-scale-factor=2'
+
+alias yantok-tunnel='sshuttle -r yantok.canonical.com 10.101.48.1/22'
 
 # source ~/Code/checkbox/my-env/bin/activate
 
